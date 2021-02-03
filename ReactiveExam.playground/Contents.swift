@@ -2,7 +2,6 @@ import UIKit
 import Combine
 
 let ordinary = OrdinaryMethods()
-
 ordinary
     .start {
         print("Completed Ordinary Methods")
@@ -10,7 +9,6 @@ ordinary
 
 let reactive = ReactiveMethods()
 var cancellables = Set<AnyCancellable>()
-
 reactive
     .start()
     .sink { (_) in
