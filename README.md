@@ -27,7 +27,7 @@ str = "bbb"
 ...
 str = "ccc"
 ```
-strはaaaからbbbになりcccになったという値に変化の事
+strはaaaからbbbになりcccになったという**値の変化の遷移**の事
 
 ## Combineフレームワークとは？
 
